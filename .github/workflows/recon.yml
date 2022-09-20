@@ -32,7 +32,7 @@ jobs:
       - name: Install & Recon
         run: |
           sudo -E ./install.sh
-          sudo -E ./reconftw -d tradingview.com -r
+          sudo -E ./reconftw.sh -d tradingview.com -r
         shell: bash
           
       - name: Save domains
